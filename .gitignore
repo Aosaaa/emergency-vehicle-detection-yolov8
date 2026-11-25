@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local datasets, videos, credentials and trained weights
+data/*
+!data/README.md
+*.mp4
+*.avi
+*.mov
+*.pt
+runs/
+weights/
+.kaggle/
+kaggle.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
